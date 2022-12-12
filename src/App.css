@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.Home{
+  background-image: url("https://img.freepik.com/premium-photo/grocery-shopping-white-background-vegetables-fruits-juice-bottles-bread-paper-bags_439094-1.jpg?w=2000");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.title{
+   padding-top: 14%;
+   font-size: 58px;
+}
+
+button {
+  border: none;
+  background-color: #86BC42;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.text {
+  text-align:left;
+  font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+/*styling home section*/
+.text{
+  position: relative;
+}
+
+.text h3 {
+  text-align: center;
+  /* color:rgb(230, 151, 5); */
+} 
+.link-btn {
+  height: 80px;
+  width:200px;
+  margin-top: 15%;
+  margin-left: 42%;
+  border: none;
+  background-color: #86BC42;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+/* .link-btn:hover {
+  background-color:rgb(230, 151, 5);
+
+} */
+
+ /*applying @media rule*/
+
+ @media (max-width: 485px) {
+  .card {
+    transform: scale(1.15);
+    margin: 2.5rem auto;
+  }
+  /* .form {
+    width: 100%;
+    margin: auto;
+  } */
+}
+
